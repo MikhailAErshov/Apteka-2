@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.refresh;
 import static io.qameta.allure.Allure.step;
 
-public class MainTest {
+public class MainTest extends WebTest{
     AptekaMainPage aptekaMainPage = new AptekaMainPage();
 
     public void setUp() {
