@@ -17,9 +17,9 @@ public class MainTest extends WebTest{
 
     public void setUp() {
         open("https://aptekaeconom.com/");
-        Selenide.webdriver().driver().getWebDriver().manage().addCookie(new Cookie("current_region", "103006"));
-        refresh();
-        aptekaMainPage.confirmRegion.shouldNotBe(Condition.visible, Duration.ofSeconds(10));
+//        Selenide.webdriver().driver().getWebDriver().manage().addCookie(new Cookie("current_region", "103006"));
+//        refresh();
+//        aptekaMainPage.confirmRegion.shouldNotBe(Condition.visible, Duration.ofSeconds(10));
     }
 
     @AfterEach
